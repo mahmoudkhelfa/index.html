@@ -2,95 +2,58 @@
 <html lang="ar">
 <head>
   <meta charset="UTF-8">
-  <title>متجر إلكتروني</title>
+  <title>متجر البيع عبر الإنترنت</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <!-- Header -->
   <header>
-    <h1>متجر إلكتروني</h1>
     <nav>
-      <a href="index.html">الرئيسية</a>
-      <a href="products.html">المنتجات</a>
-      <a href="cart.html">السلة</a>
-      <a href="contact.html">اتصل بنا</a>
+      <a href="/">الصفحة الرئيسية</a>
+      <a href="/products">المنتجات</a>
+      <a href="/about">من نحن</a>
+      <a href="/contact">اتصل بنا</a>
     </nav>
+    <a href="/cart"><img src="cart.png" alt="سلة التسوق"></a>
   </header>
-
-  <!-- Main content -->
   <main>
-
-    <!-- Products -->
     <section class="products">
-      <h2>منتجاتنا</h2>
+      <h2>المنتجات</h2>
       <ul>
         <li>
-          <a href="product-details.html">
-            <img src="images/product-1.jpg" alt="product 1">
+          <a href="#">
+            <img src="product-1.jpg" alt="منتج 1">
             <h3>منتج 1</h3>
             <p>وصف المنتج 1</p>
-            <span>\$100</span>
+            <span class="price">100 Coin</span>
           </a>
         </li>
         <li>
-          <a href="product-details.html">
-            <img src="images/product-2.jpg" alt="product 2">
+          <a href="#">
+            <img src="product-2.jpg" alt="منتج 2">
             <h3>منتج 2</h3>
             <p>وصف المنتج 2</p>
-            <span>\$200</span>
+            <span class="price">200 Coin</span>
           </a>
         </li>
         <li>
-          <a href="product-details.html">
-            <img src="images/product-3.jpg" alt="product 3">
+          <a href="#">
+            <img src="product-3.jpg" alt="منتج 3">
             <h3>منتج 3</h3>
             <p>وصف المنتج 3</p>
-            <span>\$300</span>
+            <span class="price">300 Coin</span>
           </a>
         </li>
       </ul>
     </section>
-
-    <!-- Cart -->
-    <section class="cart">
-      <h2>السلة</h2>
-      <ul>
-        <li>
-          <img src="images/product-1.jpg" alt="product 1">
-          <h3>منتج 1</h3>
-          <span>\$100</span>
-          <input type="number" value="1">
-          <span>\$100</span>
-        </li>
-        <li>
-          <img src="images/product-2.jpg" alt="product 2">
-          <h3>منتج 2</h3>
-          <span>\$200</span>
-          <input type="number" value="1">
-          <span>\$200</span>
-        </li>
-        <li>
-          <img src="images/product-3.jpg" alt="product 3">
-          <h3>منتج 3</h3>
-          <span>\$300</span>
-          <input type="number" value="1">
-          <span>\$300</span>
-        </li>
-      </ul>
-      <div class="total">
-        <h4>الإجمالي</h4>
-        <span>\$600</span>
-      </div>
-      <a href="checkout.html">الدفع</a>
+    <section class="coin">
+      <h2>Coin</h2>
+      <p>Coin هي عملة إلكترونية يمكنك استخدامها لشراء المنتجات من متجرنا. يمكنك كسب Coin عن طريق دعوة الأصدقاء، أو القيام بالتوقع الصحيح لنتائج المباريات الرياضية، أو القيام ببعض المهام الأخرى.</p>
+      <p>لبدء كسب Coin، انقر فوق الزر "احصل على Coin" أدناه.</p>
+      <a href="#">احصل على Coin</a>
     </section>
-
   </main>
-
-  <!-- Footer -->
   <footer>
-    <p>جميع الحقوق محفوظة</p>
+    <p>Copyright &copy; 2023</p>
   </footer>
-
 </body>
 </html>
